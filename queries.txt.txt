@@ -1,0 +1,33 @@
+Table creation
+--------------------------------------------------------------------------
+Create Table locations(p_name varchar,latlong geometry);
+Insert into locations values ('f1 Leavy Lib','POINT(-118.2827777777778 34.0213889)'),
+('f2 Mc Carthy','POINT(-118.2830555555555 34.0205556)'),
+('f3 Doheny Lib','POINT(-118.2845018861076 34.02045341952884)'),
+('f4 Shumway','POINT(-118.2852777777778 34.0202778)'),
+('f5 Viterbi','POINT(-118.2891666666667 34.0205556)'),
+('f6 Cinematic','POINT(-118.2863888888889 34.0233333)'),
+('S1 Traveller','POINT(-118.2855555555555 34.0205556)'),
+('S2 Tirebitter','POINT(-118.2863888888889 34.0188889)'),
+('S3 Neil Armstrong','POINT(-118.2886111111111 34.0202778)'),
+('S4 USC Coach','POINT(-118.2877777777778 34.0230556)'),
+('S5 Cinema','POINT(-118.2875 34.0238889)'),
+('S6 Hecuba','POINT(-118.2847222222222 34.025)'),
+('Home','POINT(-118.2866822 34.0327733)')
+
+---------------------------------------------------------------------------------
+
+ compute the convex hull query
+----------------------------------------------------------------------------------
+
+SELECT ST_AsText(ST_ConvexHull(ST_Collect(latlong))) from locations;
+
+
+----------------------------------------------------------------------------------
+compute the four nearest neighbors query
+----------------------------------------------------------------------------------
+
+Select p_name as loaction,ST_AsText(latlong) as latlong, ST_Distance(latlong, 'POINT(-118.2866822 34.0327733)') as distance
+from locations
+order by distance
+limit 4 offset 1;

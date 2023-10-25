@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>loc.kml</name>
+	<open>1</open>
+	<StyleMap id="default">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#default00</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="default0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#default1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#hl0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="default1">
+		<LineStyle>
+			<color>ff06ffeb</color>
+		</LineStyle>
+	</Style>
+	<Style id="default00">
+		<LineStyle>
+			<color>ff0c08ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>990c08ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="hl">
+		<IconStyle>
+			<scale>1.2</scale>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0c08ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>990c08ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="hl0">
+		<IconStyle>
+			<scale>1.2</scale>
+		</IconStyle>
+		<LineStyle>
+			<color>ff06ffeb</color>
+		</LineStyle>
+	</Style>
+	<Style id="z102">
+		<IconStyle>
+			<color>ff0000aa</color>
+			<Icon>
+				<href>http://www.google.com/intl/en_us/mapfiles/ms/micons/blue-dot.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>1.2</scale>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="z113">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#z19</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#z143</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="z114">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#z18</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#z144</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="z122">
+		<IconStyle>
+			<color>ff0000aa</color>
+			<Icon>
+				<href>http://www.google.com/intl/en_us/mapfiles/ms/micons/blue-dot.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>1.2</scale>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="z132">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#z122</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#z102</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="z143">
+		<IconStyle>
+			<color>ffff0055</color>
+			<Icon>
+				<href>http://www.google.com/intl/en_us/mapfiles/ms/micons/blue-dot.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffbeba64</color>
+			<scale>1.1</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="z144">
+		<IconStyle>
+			<color>ffff0055</color>
+			<Icon>
+				<href>http://www.google.com/intl/en_us/mapfiles/ms/micons/blue-dot.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffbeba64</color>
+			<scale>1.4</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="z18">
+		<IconStyle>
+			<color>ffff0055</color>
+			<Icon>
+				<href>http://www.google.com/intl/en_us/mapfiles/ms/micons/blue-dot.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffbeba64</color>
+			<scale>1.4</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="z19">
+		<IconStyle>
+			<color>ffff0055</color>
+			<Icon>
+				<href>http://www.google.com/intl/en_us/mapfiles/ms/micons/blue-dot.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffbeba64</color>
+			<scale>1.1</scale>
+		</LabelStyle>
+	</Style>
+	<Folder>
+		<name>waterworks</name>
+		<Placemark>
+			<name>f1 Leavy Lib</name>
+			<styleUrl>#z132</styleUrl>
+			<Point>
+				<coordinates>-118.2827777777778,34.0213889,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>f2 Mc Carthy</name>
+			<styleUrl>#z132</styleUrl>
+			<Point>
+				<coordinates>-118.2830555555555,34.0205556,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>f3 Doheny Lib</name>
+			<styleUrl>#z132</styleUrl>
+			<Point>
+				<coordinates>-118.2845018861076,34.02045341952884,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>f4 Shumway</name>
+			<styleUrl>#z132</styleUrl>
+			<Point>
+				<coordinates>-118.2852777777778,34.0202778,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>f5 Viterbi</name>
+			<styleUrl>#z132</styleUrl>
+			<Point>
+				<coordinates>-118.2891666666667,34.0205556,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>f6 Cinematic</name>
+			<styleUrl>#z132</styleUrl>
+			<Point>
+				<coordinates>-118.2863888888889,34.0233333,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>statue</name>
+		<Placemark>
+			<name>S1 Tommy Trojan</name>
+			<styleUrl>#z113</styleUrl>
+			<Point>
+				<coordinates>-118.2855555555555,34.0205556,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>S2 Tirebitter</name>
+			<styleUrl>#z113</styleUrl>
+			<Point>
+				<coordinates>-118.2863888888889,34.0188889,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>S3 Neil Armstrong</name>
+			<styleUrl>#z113</styleUrl>
+			<Point>
+				<coordinates>-118.2886111111111,34.0202778,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>S4 USC Coach</name>
+			<styleUrl>#z113</styleUrl>
+			<Point>
+				<coordinates>-118.2877777777778,34.0230556,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>S5 Cinema</name>
+			<styleUrl>#z113</styleUrl>
+			<Point>
+				<coordinates>-118.2875,34.0238889,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>S6 Hecuba</name>
+			<styleUrl>#z113</styleUrl>
+			<Point>
+				<coordinates>-118.2847222222222,34.025,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<Placemark>
+			<name>Home</name>
+			<styleUrl>#z114</styleUrl>
+			<Point>
+				<coordinates>-118.2866822,34.0327733,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Placemark>
+		<name>convex_hull_1</name>
+		<styleUrl>#default</styleUrl>
+		<Polygon>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-118.2830555555555,34.0205556,39.99999999999999 -118.2827777777778,34.0213889,39.99999999999999 -118.2866822,34.0327733,39.99999999999999 -118.2891666666667,34.0205556,39.99999999999999 -118.2863888888889,34.0188889,39.99999999999999 -118.2830555555555,34.0205556,39.99999999999999 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>l1_hecuba_s</name>
+		<styleUrl>#default0</styleUrl>
+		<LineString>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>
+				-118.2847222222222,34.025,39.99999999999999 -118.2866822,34.0327733,39.99999999999999 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>l2_cinema_s</name>
+		<styleUrl>#default0</styleUrl>
+		<LineString>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>
+				-118.2875,34.0238889,52 -118.2866822,34.0327733,52 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>l3_cinematic_f</name>
+		<styleUrl>#default0</styleUrl>
+		<LineString>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>
+				-118.2863888888889,34.0233333,52 -118.2866822,34.0327733,52 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark>
+		<name>l4_coach_s</name>
+		<styleUrl>#default0</styleUrl>
+		<LineString>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>
+				-118.2877777777778,34.0230556,52 -118.2866822,34.0327733,52 
+			</coordinates>
+		</LineString>
+	</Placemark>
+</Document>
+</kml>
